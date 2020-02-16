@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+}
+
+.container {
+    margin: 100px auto 0px auto;
+    width: 350px;
+    height: 380px;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 10px;
+    background-color: #fff; 
+}
+
+.logo {
+    display: block;
+    margin: 25px auto;
+}
+
+.loginContainer {
+    margin: 40px auto 0 auto;
+    width: 268px;
+}
+
+.loginContainer input {
+    width: 100%;
+    height: 38px;
+    margin-top: 6px;
+    padding-left: 8px;
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    background-color: #fafafa;
+    color: #262626;
+}
+
+.login {
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid transparent;
+    margin-top: 16px;
+    background-color: #3897f0;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.5;
+    text-align: center;
+    line-height: 30px;
+}
+
+.forgetPw {
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    color: #003569;
+    text-decoration: none;
+}
