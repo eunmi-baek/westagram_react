@@ -34,9 +34,6 @@ class Login extends React.Component {
             })
         }
 
-        // ook = e => {
-        //     this.state.id === "eun.m__" && this.state.pwd === "1234" ? 
-        // }
     
     render() {
         return (
@@ -55,7 +52,6 @@ class Login extends React.Component {
                         to="/Main" 
                         className="login"
                         style={{opacity : this.state.id && this.state.pwd ? "1" : "0.5"}}
-                        onClick={this.ook}
                     >
                         로그인
                     </Link> 

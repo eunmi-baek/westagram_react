@@ -26,13 +26,11 @@ class Feeditem extends React.Component {
         
     }
     mapOffeed = (texts) => {
-        return texts.map((txt,i)=>(
-            <div className="cmtAll" key={i}>
-                <span style={{fontWeight:600, marginRight:"3px"}}>eun.m__</span>
-                <span>{txt}</span>  
-            </div>
+        return texts.map((txt)=>(
+            <Comment data={txt}/>
         ))
     }
+
 
 
     render() {

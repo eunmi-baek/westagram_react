@@ -3,11 +3,10 @@ import React, { Component } from 'react';
 class Comment extends Component {
     
     render() {
-        this.state.comments.map()
         return (
-            <div className="cmtAll">
-                <span>{this.props.name}</span>
-                <span>{this.props.text}</span>
+            <div className="cmtAll" key={this.props.data}>
+                <span style={{fontWeight:600, marginRight:"3px"}}>eun.m__</span>
+                <span>{this.props.data}</span>
             </div>
         )
     }
